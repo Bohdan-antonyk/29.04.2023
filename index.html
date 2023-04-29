@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>29.04.2023</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-left">CSS grid-template-areas Property</h2>
+    <div class="wrapper-button-header">
+        <button class="main-button">❮ Previous</button>
+        <button class="central-button">Complete CSS Reference</button>
+        <button class="main-button">Next ❯</button>
+    </div>
+    <section class="first-section">
+        <div class="title-first">Example</div>
+        <div class="description">Make the named item "myArea" span two columns in a five columns grid layout:</div>
+        <div class="content">
+            <div class="color-brown">.item1 {</div>
+            <div class="color-red">grid-area: <span>myArea;</span></div>
+            <div class="color-brown">}</div>
+            <div class="color-brown">.grid-container {</div>
+            <div class="color-red">display: <span>grid;</span></div>
+            <div class="color-red"> grid-template-areas: <span>"myArea myArea . . .";</span></div>
+            <div class="color-brown">}</div>
+        </div>
+        <button class="main-button">Try it Yourself »</button>
+    </section>
+    <section class="text-left">
+        <h2>Definition and Usage</h2>
+        <p>The <span class="some-text">grid-template-areas</span> property specifies areas within the grid layout.</p>
+        <p>You can name grid items by using the <span class="underline-text">grid-area</span> property, and then
+            reference to the name in the <span class="some-text">grid-template-areas</span> property.</p>
+        <p>Each area is defined by apostrophes. Use a period sign to refer to a grid item with no name.</p>
+        <button class="main-button">Show demo ❯</button>
+    </section>
+</div>
+</body>
+</html>
